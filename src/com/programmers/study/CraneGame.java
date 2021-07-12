@@ -11,7 +11,7 @@ public class CraneGame {
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+		 
 		int[][] board;
 		int[] moves;
 		
