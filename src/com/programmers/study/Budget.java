@@ -32,7 +32,7 @@ public class Budget {
         for(int i=0;i<d.length;i++) {
         	if(budget>=d[i]) {
         		budget-=d[i];
-        		answer++;
+        		answer++; 
         	} else break;
         }
         
