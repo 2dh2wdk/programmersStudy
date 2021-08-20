@@ -19,10 +19,10 @@ public class HidePhoneNum {
         
         char[] phoneChar = phone_number.toCharArray();
         
-        for(int i=0;i<phoneChar.length;i++) {
-        	if(i<phoneChar.length-4) answer+="*";
-        	else answer+=phoneChar[i];
+        for(int i=0;i<phoneChar.length-4;i++) {
+        	phoneChar[i] = '*';
         }
+        answer = String.valueOf(phoneChar);
         
         return answer;
     }
